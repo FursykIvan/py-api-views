@@ -6,7 +6,10 @@ from rest_framework.views import APIView
 from rest_framework.viewsets import GenericViewSet
 
 from cinema.models import Movie, Genre, Actor, CinemaHall
-from cinema.serializers import MovieSerializer, GenreSerializer, ActorSerializer, CinemaHallSerializer
+from cinema.serializers import (MovieSerializer,
+                                GenreSerializer,
+                                ActorSerializer,
+                                CinemaHallSerializer)
 
 
 class GenreAPIView(APIView):
